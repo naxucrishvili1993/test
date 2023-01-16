@@ -1,0 +1,90 @@
+/* შემოგვაქვს Font სტილები */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar სექცია */
+
+.navbar-brand-title {
+    font-size: 2rem;
+}
+
+.navbar-brand {
+    vertical-align: top;
+}
+.navbar .navbar-brand-dot {
+    color: rgb(28, 120, 151);
+    font-size: 3rem;
+}
+.navbar .brand-subtitle {
+    font-size: 1rem;
+    word-wrap: wrap;
+}
+.navbar a.nav-link.active {
+    color: rgb(62, 62, 252);
+}
+.navbar-nav {
+    font-weight: 500;
+}
+
+/* Header სექცია */
+header {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+header p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.header-form input {
+    max-width: 500px;
+}
+header button {
+    max-width: 500px;
+    width: 100%;
+}
+
+svg.phone {
+    height: 1rem;
+    width: 1rem;
+}
+
+/* Main სექცია */
+main h2 {
+    color: #0d6efd;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+main .col img {
+    aspect-ratio: 2/1.8;
+    width: 200px;
+}
+
+main a {
+    border-bottom: 1px solid #3d86f3;
+    color: #3d86f3;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.15s;
+}
+main a:hover {
+    opacity: 0.8;
+}
+
+/* Footer სექცია */
+footer {
+    background-color:#0d6efd;
+}
+
+/* .text-muted კლასს Bootstrap-ის მიერ უკვე აქვს მინიჭებული სტილები, სწორედ ამიტომ ვუწერთ !important */
+footer .text-muted {
+    color: white !important;
+}
